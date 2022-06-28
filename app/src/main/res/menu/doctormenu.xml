@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/doc_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/medico_txt_color"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/doc_profile"
+        android:icon="@drawable/ic_person"
+        android:iconTint="@color/medico_txt_color"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/doc_appointment"
+        android:icon="@drawable/ic_assignment"
+        android:iconTint="@color/medico_txt_color"
+        android:title="Appointment"/>
+
+</menu>

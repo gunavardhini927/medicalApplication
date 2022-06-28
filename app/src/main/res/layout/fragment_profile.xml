@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/pt_reg_card_margin"
+                android:orientation="vertical">
+        <LinearLayout
+                    android:id="@+id/linear_Layout_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pt_reg_linear_height"
+                    android:layout_margin="@dimen/pt_reg_linear_margin"
+                    android:background="@color/logo_bg"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/pt_reg_img_width"
+                        android:layout_height="@dimen/pt_reg_img_height"
+                        android:layout_marginStart="@dimen/pt_reg_img_margin_start"
+                        android:src="@drawable/logo" />
+                    <TextView
+                        android:layout_width="@dimen/pt_reg_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/pt_reg_txt_margin_start"
+                        android:fontFamily="monospace"
+                        android:text="Medico"
+                        android:textColor="@color/medico_txt_color"
+                        android:textSize="@dimen/pt_reg_txt_size" />
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/full_name_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/pt_reg_ed_height"
+                    android:layout_marginTop="@dimen/pt_reg_ed_top"
+                    android:layout_marginStart="@dimen/pt_reg_ed_margin_start"
+                    android:layout_marginEnd="@dimen/pt_reg_ed_margin_end"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:hint="Patient Name"
+                    android:drawablePadding="@dimen/pt_reg_ed_draw_pad"
+                    android:paddingStart="@dimen/pt_reg_ed_padding_start"
+                    android:paddingEnd="@dimen/pt_reg_ed_pad_end"
+                    android:textSize="@dimen/pt_reg_ed_size"
+                    android:inputType="text" />
+                <EditText
+                    android:id="@+id/phn_no_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/custom_input"
+                    android:hint="Phone number"
+                    android:paddingStart="15dp"
+                    android:drawableStart="@drawable/ic_baseline_phone_24"
+                    android:drawablePadding="12dp"
+                    android:paddingEnd="15dp"
+                    android:textSize="22sp"
+                    android:inputType="phone" />
+                <EditText
+                    android:id="@+id/DOB_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/custom_input"
+                    android:hint="DD/MM/YYYY"
+                    android:paddingStart="15dp"
+                    android:drawableStart="@drawable/ic_baseline_perm_contact_calendar_24"
+                    android:drawablePadding="12dp"
+                    android:paddingEnd="15dp"
+                    android:textSize="22sp"
+                    android:inputType="phone"
+                    />
+
+        <Button
+            android:id="@+id/btn_Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn_bg"
+            android:text="Update"
+           android:layout_gravity="center"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+
+
+
