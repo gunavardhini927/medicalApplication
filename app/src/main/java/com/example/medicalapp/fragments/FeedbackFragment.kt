@@ -25,6 +25,7 @@ class FeedbackFragment : Fragment() {
                 Toast.makeText(context,"Rating: $rating",Toast.LENGTH_LONG).show()
             }
 
+
             return bind.root
         }
 
